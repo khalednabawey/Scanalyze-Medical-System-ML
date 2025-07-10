@@ -1,0 +1,11 @@
+name: scanalyze-deployment
+endpoint_name: scanalyze-endpoint
+model: azureml:model-placeholder:1  # can leave blank if using docker directly
+code_configuration:
+  code: .
+  scoring_script: score.py
+environment:
+  build:
+    dockerfile_path: Dockerfile
+instance_type: Standard_DS3_v2
+instance_count: 1

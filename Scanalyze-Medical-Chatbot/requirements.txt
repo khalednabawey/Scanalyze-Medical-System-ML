@@ -1,0 +1,14 @@
+fastapi
+uvicorn
+gunicorn
+transformers
+torch
+nltk
+qdrant-client
+langdetect
+langchain
+langchain-community
+langchain-huggingface
+azureml-core
+azure-ai-ml 
+azure-identity
